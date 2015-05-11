@@ -1,8 +1,8 @@
-# homework
-5-10-15 gSchool homework
+//# homework
+//5-10-15 gSchool homework
 
 
-***FIBONACCI
+//***FIBONACCI
 
 function fib(i){
 var v1 = 1;
@@ -18,12 +18,12 @@ while(v3 < i){
     v3 = v1 + v2;
 }
   }
-fib(42);  
+fib(42);
 
-***
+//***
 
 
-*** PRIME NUMBER FUNCTION
+//*** PRIME NUMBER FUNCTION
 
 function prime(i){
   var c = 2;
@@ -37,12 +37,12 @@ function prime(i){
  }
   return result;
 }
-console.log(prime(17));  
+console.log(prime(17));
 
-***
+//***
 
 
-***LOG ALL LOOP
+//***LOG ALL LOOP
 
 var arr1 = [1,2,3,4,5];
 function a1(arr){
@@ -54,9 +54,9 @@ function a1(arr){
 }
 a1(arr1);
 
-***
+//***
 
-***SUM LOOP
+//***SUM LOOP
 
 var arr = [1,2,3];
 var sum = 0;
@@ -68,9 +68,9 @@ while(count < arr.length){
 }
  console.log(sum);
 
- ***
+ //***
 
-*** SUBTRACT LOOP
+//*** SUBTRACT LOOP
 
 var arr = [10,10,10];
 var sum = 0;
@@ -79,11 +79,11 @@ while(count < arr.length){
      sum = sum - arr[count];
      count++;
 }
-console.log(sum);  
+console.log(sum);
 
-***
+//***
 
-*** LARGEST LOOP
+//*** LARGEST LOOP
 
 var arr = [1,9,7];
 var count = 0;
@@ -97,9 +97,9 @@ while(count < arr.length){
 }
 console.log(large);
 
-***
+//***
 
-*** SMALLEST LOOP
+//*** SMALLEST LOOP
 
 var arr = [20,19,40];
 var count = 0;
@@ -114,9 +114,9 @@ while(count < arr.length){
 }
 console.log(small);
 
- ***
+// ***
 
-*** AVERAGE LOOP
+//*** AVERAGE LOOP
 
 var arr = [10,20,30];
 var count = 0;
@@ -129,15 +129,15 @@ while(count < arr.length){
 var average = sum / arr.length;
 console.log(average);
 
-***
+//***
 
 
 
 
-SUMMARY OF 'YOU DONT KNOW JS'
+/*SUMMARY OF 'YOU DONT KNOW JS'
 
 
-In ‘You don’t know JS’ they start off by going over the definition of what an expression and a statement is. For example “a = b * 2;” is a statement with four expressions within it.  
+In ‘You don’t know JS’ they start off by going over the definition of what an expression and a statement is. For example “a = b * 2;” is a statement with four expressions within it.
 
 Also , the went over what the different properties mean , for example ,
 a += 2 means the same as a = a + 2. As well && meaning and and || meaning or.
@@ -200,4 +200,4 @@ while(bank >= amt){
 var sum = amt + tax(amt);
 console.log(amt);
 console.log(tax(amt));
-console.log('Final Cost ' + format(sum));
+console.log('Final Cost ' + format(sum));   */
